@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+nav {
+    text-decoration: none;
+}
+
+.box-1 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+    margin-left: 5rem;
+    padding: 0 2rem;
+}
+
+#sumi {
+    transform: rotate(90deg);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    block-size: 960px;
+
+}
+
+body {
+    background-image: url("C:\Users\Anya\Desktop\Polaris-Repo\assets\images");
+    background-repeat:no-repeat;
+    background-size:cover;
+} 
