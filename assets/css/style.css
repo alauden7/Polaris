@@ -1,17 +1,11 @@
 * {
     box-sizing: border-box;
-    background: 960px;
-    background-image: url("./assets/images/papyrus-dark.png");
 }
 
 body {
+    background-image: url("../images/papyrus-dark.png");
     display: block;
-    background: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    block-size: 960px;
-    background-repeat:no-repeat;
-    background-size:cover;
-
 }
 
 header, ul {
@@ -25,10 +19,18 @@ header, ul {
 li {
     float: left;
     list-style-type: none;
+    border: 1px solid #000000;
 }
 
 nav {
     text-decoration: none;
+}
+
+.main-content {
+    border: 1px solid white;
+    background: white;
+    margin: 20px;
+    width: 960px;
 }
 
 .box-1 {
